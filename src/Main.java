@@ -32,18 +32,9 @@ public class Main {
                     System.out.println("Producto creado y agregado a la lista.");
                     break;
 
-                case 2:
-                    // Crear producto solo con código y nombre
-                    System.out.print("Ingrese el código: ");
-                    codigo = sc.nextInt();
-                    System.out.print("Ingrese el nombre: ");
-                    nombre = sc.next();
-                    Producto producto2 = new Producto(codigo, nombre);
-                    productos.add(producto2);
-                    System.out.println("Producto creado y agregado a la lista.");
-                    break;
+            
 
-                case 3:
+                case 2:
                     // Imprimir datos de todos los productos
                     if (!productos.isEmpty()) {
                         System.out.println("\nDatos de todos los productos:");
@@ -56,7 +47,7 @@ public class Main {
                     }
                     break;
 
-                case 4:
+                case 3:
                     System.out.println("Saliendo del programa...");
                     break;
 
