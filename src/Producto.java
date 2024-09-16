@@ -14,13 +14,6 @@ public class Producto {
         this.cantidad = 0;
     }
 
-    // Constructor con 'codigo' y 'nombre'
-    public Producto(int codigo, String nombre) {
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.precio = 0.0;
-        this.cantidad = 0;
-    }
 
     // Constructor con todos los atributos
     public Producto(int codigo, String nombre, double precio, int cantidad) {
