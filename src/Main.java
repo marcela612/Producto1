@@ -10,7 +10,6 @@ public class Main {
         do {
             System.out.println("\n--- Menú Principal ---");
             System.out.println("1. Crear Producto (Con todos los atributos)");
-            System.out.println("2. Crear Producto (Solo con código y nombre)");
             System.out.println("3. Imprimir Datos de Todos los Productos");
             System.out.println("4. Salir");
             System.out.print("Seleccione una opción: ");
